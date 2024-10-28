@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+h1, h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    line-height: 1.2;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.main{
+    background-color: #484d53;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo{
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+#container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+li a:hover{
+    color: white;
+}
+#active{
+    color: white;
+}
+nav{
+    margin: auto 0;
+}
+.hero{
+    background-color: #484d53;
+}
+.hero h1{
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.hero p{
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 200px;
+}
+.HIW{
+    background-color: #E6E5E5;
+}
+.HIW h2{
+    color: #E97F06;
+    margin: auto;
+    width: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ion-icon{
+    font-size: 35px;
+    color: #E97F06;
+}
+#container div{
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding-bottom: 50px;
+}
+.HIW p{
+    color: grey;
+}
+.HIW h4{
+    color: #484d53;
+}
+.properties h2{
+    color: #E97F06;
+}
